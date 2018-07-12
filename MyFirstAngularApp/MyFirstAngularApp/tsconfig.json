@@ -1,0 +1,24 @@
+﻿{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "lib": [ "es5", "es2015", "dom" ],
+    "noImplicitAny": false,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "types": [ "node" ]
+  },
+  "exclude": [
+    "node_modules",
+    "node_modules/@typings",
+    "typings",
+    "3rdParty/jqwidgets-ts"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "MyFirstAngularApp",
+  "version": "1.0.0",
+  "author": "TTI",
+  "description": "Package for the TTI HTML5 standard reference application",
+  "dependencies": {
+    "@angular/common": "2.3.0",
+    "@angular/compiler": "2.3.0",
+    "@angular/core": "2.3.0",
+    "@angular/forms": "2.3.0",
+    "@angular/http": "2.3.0",
+    "@angular/platform-browser": "2.3.0",
+    "@angular/platform-browser-dynamic": "2.3.0",
+    "@angular/router": "3.3.0",
+    "systemjs": "0.19.41",
+    "core-js": "2.4.1",
+    "rxjs": "5.0.0-rc.5",
+    "zone.js": "0.7.2",
+    "ng2-toastr": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.31",
+    "typescript": "2.3.3"
+  }
+}

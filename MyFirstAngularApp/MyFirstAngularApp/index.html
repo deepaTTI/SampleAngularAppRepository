@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular QuickStart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="3rdParty/JQWidgets/styles/jqx.base.css" rel="stylesheet" />
+	
+	<!-- Polyfill(s) for older browsers -->
+	<script src="/node_modules/typescript/lib/typescript.js"></script>
+	<script src="/node_modules/core-js/client/shim.min.js"></script>
+	<script src="/node_modules/zone.js/dist/zone.js"></script>
+	<script src="/node_modules/systemjs/dist/system.src.js"></script>
+
+	<script src="3rdParty/jquery/Content/Scripts/jquery-2.1.4.min.js"></script>
+
+	<script src="3rdParty/JQWidgets-v4.5.3/jqxcore.js"></script>
+	<script src="3rdParty/JQWidgets-v4.5.3/jqxbuttons.js"></script>
+	<script src="3rdParty/JQWidgets-v4.5.3/jqxdropdownlist.js"></script>
+	<script src="3rdParty/JQWidgets-v4.5.3/jqxlistbox.js"></script>
+	<script src="3rdParty/JQWidgets-v4.5.3/jqxwindow.js"></script>
+	<script src="3rdParty/JQWidgets-v4.5.3/jqxvalidator.js"></script>
+	<script src="3rdParty/JQWidgets-v4.5.3/jqxscrollbar.js"></script>
+	<!-- Configure SystemJS -->
+	<script src="/Scripts/SampleApp/systemjs.config.js"></script>
+	<script>
+		System.import('../../Scripts/SampleApp/main').catch(function (err) { console.error(err); });
+	</script>
+
+</head>
+<body>
+    <test-app>Loading AppComponent content here ...</test-app>
+</body>
+</html>
